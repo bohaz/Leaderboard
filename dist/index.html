@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Leaderboard</title>
+<script defer src="bundle.js"></script></head>
+<body>
+  <main>
+    <h1>Leaderboard</h1>
+
+    <div class="container">
+      
+      <div class="recent-scores">
+        <div class="h2-button">
+          <h2>Recent scores</h2>
+          <button id="refreshButton">Refresh</button>
+        </div>
+        
+      
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+            <!-- Dynamic table rows will be added here -->
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="add-scores">
+        <form id="scoreForm">
+          <h2>Add your score</h2>
+
+          <input type="text" id="nameInput" placeholder="Your name:">
+          
+          <input type="number" id="scoreInput" placeholder="Your score:">
+          
+          <button id="submitButton" type="submit">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </main>
+  
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
