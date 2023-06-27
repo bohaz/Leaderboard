@@ -70,6 +70,7 @@ HTML5, CSS3, JavaScript, Git and Github
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Demo link is comming soon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,6 +175,7 @@ If you like this project let me know with a STAR!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thaks Microverse for giving me the oportunity to build projects like this. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
