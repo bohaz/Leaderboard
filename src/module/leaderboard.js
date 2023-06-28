@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
-export function renderLeaderboard(scores) {
+export const renderLeaderboard = (scores) => {
   const leaderboardBody = document.getElementById('leaderboardBody');
   leaderboardBody.innerHTML = '';
 
@@ -16,4 +16,4 @@ export function renderLeaderboard(scores) {
 
     leaderboardBody.appendChild(row);
   });
-}
+};

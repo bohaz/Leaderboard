@@ -4,7 +4,7 @@ import { renderLeaderboard } from './module/leaderboard.js';
 
 let gameID = null;
 
-async function initializeGame() {
+const initializeGame = async () => {
   try {
     const gameName = 'SuperHero';
     const game = await createGame(gameName);
@@ -13,9 +13,9 @@ async function initializeGame() {
     // eslint-disable-next-line no-console
     console.error('Error al crear el juego:', error);
   }
-}
+};
 
-async function handleRefresh() {
+const handleRefresh = async () => {
   if (!gameID) {
     await initializeGame();
   }
@@ -24,9 +24,9 @@ async function handleRefresh() {
     const scores = await fetchData(gameID);
     renderLeaderboard(scores);
   }
-}
+};
 
-async function handleSubmit(event) {
+const handleSubmit = async (event) => {
   event.preventDefault();
 
   const nameInput = document.getElementById('nameInput');
@@ -42,7 +42,7 @@ async function handleSubmit(event) {
   // eslint-disable-next-line no-restricted-globals
   if (name === '' || isNaN(score)) {
     // eslint-disable-next-line no-alert
-    alert('Please enter a valid name and score.');
+    alert('Por favor, ingresa un nombre y una puntuación válida.');
     return;
   }
 
@@ -52,7 +52,7 @@ async function handleSubmit(event) {
   scoreInput.value = '';
 
   handleRefresh();
-}
+};
 
 const refreshButton = document.getElementById('refreshButton');
 const scoreForm = document.getElementById('scoreForm');
