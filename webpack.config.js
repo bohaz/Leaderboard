@@ -1,11 +1,11 @@
-const { resolve, join } = require('path');
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   module: {
@@ -23,7 +23,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: join(__dirname, 'dist'),
+    static: {
+      directory: path.resolve(__dirname, 'dist'),
+    },
     port: 8080,
   },
 };
