@@ -11,10 +11,10 @@ body {
   font-family: 'Press Start 2P', cursive;
   color: white;
   text-shadow:
-  -1px -1px 0 black,
-   1px -1px 0 black,
-  -1px  1px 0 black,
-   1px  1px 0 black;
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
 }
 
 .container {
@@ -73,11 +73,11 @@ input {
   background-color: transparent;
   color: white;
   text-shadow:
-  -1px -1px 0 black,
-   1px -1px 0 black,
-  -1px  1px 0 black,
-   1px  1px 0 black;
-   border: none;
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+  border: none;
 }
 
 h1 {
