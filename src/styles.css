@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(img/mario.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
 .container {
   display: flex;
   gap: 20px;
@@ -15,12 +28,13 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 5% 10% 5% 1%;
 }
 
 .recent-scores {
   width: 50%;
-  padding: 5%;
+  padding: 5% 1% 5% 10%;
+  text-align: left;
 }
 
 form {
@@ -37,20 +51,40 @@ form {
 
 #submitButton {
   width: 20%;
-  height: 4vh;
-  margin-left: 80%;
+  height: 5vh;
+  margin-left: 45%;
 }
 
 #refreshButton {
   width: 20%;
-  height: 4vh;
+  height: 5vh;
+}
+
+button {
+  background-color: orangered;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5vh;
 }
 
 input {
-  height: 4vh;
+  height: 5vh;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1%;
+  background-color: transparent;
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+  border: none;
 }
 
 h1 {
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 14%;
+}
+
+h2 {
+  font-size: 1.5vw;
 }
