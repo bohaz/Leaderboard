@@ -31,10 +31,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 
-**[Leaderboard]** Is a personal priject that alows users to add and remove scores!
+**Leaderboard** Is a personal priject that alows users to add and remove scores!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,7 @@ HTML5, CSS3, JavaScript, Git and Github
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Demo link is comming soon!
+- [Live Demo Link](bohaz.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,9 +138,9 @@ You can deploy this project using:
 
 👤 **Ricardo Martínez**
 
-- GitHub: [@bohaz](https://github.com/githubhandle)
-- Twitter: [@Ricardo29115571](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@bohaz](https://github.com/bohaz)
+- Twitter: [@Ricardo29115571](https://twitter.com/Ricardo29115571)
+- LinkedIn: [Ricardo Martinez](https://www.linkedin.com/in/ricardomart%C3%ADnez%E2%88%B4/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,8 +149,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Functionality]**
-- [ ] **[Content]**
+- [ ] **Functionality**
+- [ ] **Content**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
